@@ -100,5 +100,6 @@ for dir in \
   cd $MSBROOT
 done
 
+echo "Move txz packages to /tmp/mate-builds/base"
 mkdir -p /tmp/mate-builds/base
 mv $TMP/* /tmp/mate-builds/base/

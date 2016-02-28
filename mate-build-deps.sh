@@ -94,5 +94,7 @@ for dir in \
   # back to original directory
   cd $MSBROOT
 done
+
+echo "Move txz packages to /tmp/mate-builds/deps"
 mkdir -p /tmp/mate-builds/deps
 mv $TMP/* /tmp/mate-builds/deps/

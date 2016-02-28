@@ -89,5 +89,6 @@ for dir in \
   cd $MSBROOT
 done
 
+echo "Move txz packages to /tmp/mate-builds/extra"
 mkdir -p /tmp/mate-builds/extra
 mv $TMP/* /tmp/mate-builds/extra/
