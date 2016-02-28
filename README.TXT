@@ -20,12 +20,12 @@ How to build and install the MATE packages using these scripts:
 
 1.  Clone the Git repo or download a tarball/zip of the repo.
 
-2.  Run the 'mate-build-deps.sh' in the msb root directory which will build
+2.  Run the 'mate-build-deps.sh' in the mate root directory which will build
 and install all the necessary dependencies in the /deps directory. There are
 a total of 20 packages. Please use "su" or "su -" to build as root instead
 of using "sudo".
 
-3.  Run the 'mate-build-base.sh' in the msb root directory which will build
+3.  Run the 'mate-build-base.sh' in the mate root directory which will build
 and install all the base (required) packages. There are a total of 24 packages
 and they do not replace any stock Slackware packages. The SlackBuilds will use
 wget to download the sources.  Or, you can also manually download the
@@ -35,7 +35,7 @@ directory within 'base' and 'deps'.
 
 4.  Optionally, build and install any of the extra packages in the /extra
 directory.  If you want to build and install them all, then you can use the
-'mate-build-extra.sh' script in the msb root directory.  Otherwise, just go
+'mate-build-extra.sh' script in the mate root directory.  Otherwise, just go
 into the directory of whatever package you want in /extra and run the
 SlackBuild.  As with 'base', each SlackBuild will download the source.
 
