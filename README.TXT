@@ -39,6 +39,8 @@ directory.  If you want to build and install them all, then you can use the
 into the directory of whatever package you want in /extra and run the
 SlackBuild.  As with 'base', each SlackBuild will download the source.
 
+Binaries will be found to /tmp/mate-builds/{deps,base,extra}
+
 5.  Once the base packages are built and installed, plus any from /extra,
 you can use 'xwmconfig' to select the mate session.  Or, if you use KDM,
 just log out and select MATE from the KDM session dialog.
