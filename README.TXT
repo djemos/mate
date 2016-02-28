@@ -7,15 +7,11 @@ Please check the main project website at https://mateslackbuilds.github.io
 for screenshots and more information.  There is also a link to MATE 1.12
 binary packages for Slackware 14.2.
 
-Please read GIT_BRANCHES.TXT to make sure you are on the right branch of
-the MSB repo before attempting to build from the scripts.
-
 After cloning the initial Git repo, you will be using 'master' branch which
 will build the development branch for MATE desktop.  Building from the
 development branch is not supported and may or may not work at any given
 moment.  Most users will want to build from the stable branch which is MATE
-version 1.12, released in November 2015.  Checkout that branch using 'git
-checkout mate' to build from the stable MSB branch.
+version 1.12, released in November 2015. 
 
 The rest of this README.TXT is specific to building from the 'master'
 branch.
