@@ -5,8 +5,7 @@ This project provides SlackBuild scripts to build and install the MATE
 desktop environment (http://www.mate-desktop.org) on Slackware Linux.
 Please check the main project website at https://mateslackbuilds.github.io
 for screenshots and more information.  There is also a link to MATE 1.12
-binary packages for Slackware 14.1 and also older MATE packages for Slackware
-14.0 and 14.1.
+binary packages for Slackware 14.2.
 
 Please read GIT_BRANCHES.TXT to make sure you are on the right branch of
 the MSB repo before attempting to build from the scripts.
@@ -16,7 +15,7 @@ will build the development branch for MATE desktop.  Building from the
 development branch is not supported and may or may not work at any given
 moment.  Most users will want to build from the stable branch which is MATE
 version 1.12, released in November 2015.  Checkout that branch using 'git
-checkout 14.1-mate-1.12' to build from the stable MSB branch.
+checkout mate' to build from the stable MSB branch.
 
 The rest of this README.TXT is specific to building from the 'master'
 branch.
@@ -67,6 +66,4 @@ mateslackbuilds@gmail.com.
 
 Thanks!
 
----
-Chess Griffin
-Willy Sudiarto Raharjo
+
