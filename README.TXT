@@ -59,8 +59,7 @@ full install of the latest official Slackware release.  It might run on a
 less-than-full install and it might run on -current.  Or, it might not.
 Neither of those are our official target systems.
 
-8.  Enjoy and let us know of any issues.  Email is:
-mateslackbuilds@gmail.com.
+8.  Enjoy and let us know of any issues.
 
 Thanks!
 
